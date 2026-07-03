@@ -19,3 +19,14 @@
 	3 2 1 
 	2 1 
 	1
+1. Given an array of positive integers arr[], return the second largest element from the array. If the second largest element doesn't exist then return -1.
+2. Write a Python function that takes a list of words and return the longest word and the length of the longest one.
+3. Break a comma-separated text string into individual data entries.
+4. Write a Python script that uses string and list methods to complete these steps on the string "  mAtThEw , sArAh,   bOb, jEnNiFeR ,AlIcE  ":
+	i.   Remove whitespace: Clean the outer edges of the raw_data string.
+	ii.  Split into a list: Break the single string into a list of individual name strings.
+	iii. Clean each item: Remove any hidden spaces remaining around individual names, and convert every name to standard title case (e.g., mAtThEw becomes Matthew).
+	iv.  Filter names: Remove the name "Bob" from your list if it exists.
+	v.   Add a missing name: Add "Charlie" to the very end of the list.
+	vi.  Sort alphabetically: Alphabetize the final list.
+	vii. Find an index: Locate and print the final index position of "Jennifer".
